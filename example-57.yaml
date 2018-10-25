@@ -1,0 +1,8 @@
+
+parameters:
+    project: example-57
+    client_id: 1d3B2eleq-Jygj99STxbri0z
+    client_secret: m1x6hnCVJ1mkhr0SfKEI2oZ4XAKmlQjE
+    oauth_url: https://api.sphere.io
+    api_url: https://auth.sphere.io
+    scope: manage_project:example-57

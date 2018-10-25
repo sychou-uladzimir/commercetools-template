@@ -1,0 +1,37 @@
+/bin
+DCS-CSR/bin
+.ant-targets-build.xml
+.ant-targets-ec2-build.xml
+classes
+classes.jar
+resources.jar
+atgclasses.jar
+apiclasses.jar
+jacoco.exec
+junit*.csv
+.idea*
+**/build/*
+**/gradle/*
+!/Build/import
+!/Build/liquibase
+!/Build/config
+jacocoant
+*.log
+sftp-config.json
+.metadata
+*.iml
+*.eml
+*.tmp
+.gradle/
+# ignore environment specific ant build properties
+/*-ant-build.properties
+# ignore node packages and debug log
+node_modules
+npm-debug.log
+package-lock.json
+
+**/target/*
+**/rebel.xml
+**/rebel-remote.xml
+
+**/.vscode/*
