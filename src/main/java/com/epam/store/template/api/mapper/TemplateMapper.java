@@ -6,7 +6,7 @@ import com.epam.store.template.service.domain.TemplateResult;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TemplateMapper {
+public class TemplateMapper implements BeanMapper {
 
 	public DoSmthResponse map(TemplateResult result) {
 		return DoSmthResponseBuilder.aDoSmthResponse()

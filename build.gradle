@@ -2,6 +2,7 @@ group 'com.epam.commercetools'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'groovy'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -23,4 +24,10 @@ dependencies {
     compile 'com.commercetools.sdk.jvm.core:commercetools-convenience:' + commerceToolsVersion
 
     testCompile("junit:junit")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.spockframework:spock-core:1.1-groovy-2.4')
+    testCompile('org.spockframework:spock-spring:1.1-groovy-2.4')
+    testCompile('com.athaydes:spock-reports:1.6.0') {
+        transitive = false
+    }
 }

@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TemplateService {
+public class TemplateService implements CommerceService {
 
 	private Logger logger = LoggerFactory.getLogger(TemplateService.class);
 
